@@ -17,7 +17,7 @@ Index
 
 개발 환경 설정
 ---
-Ubuntu 20.04버전에서 작동하였으며 다음과 같은 라이브러리가 사용됐습니다. 위에서 아래로 순차적으로 설치해야 합니다.
+Ubuntu 20.04버전에서 작동하였으며 python3를 이용하였습니다. 다음과 같은 라이브러리가 사용됐습니다. 위에서 아래로 순차적으로 설치해야 합니다.
 >sudo apt update
 >
 >sudo apt-get install python3-pip
@@ -44,13 +44,20 @@ Ubuntu 20.04버전에서 작동하였으며 다음과 같은 라이브러리가 
 
 System Diagram
 ---
+### Block Diagram
+<img src="https://github.com/timeida/check_slpping/assets/78420869/a86f6f5b-f2f8-4d86-8ffc-5fd577502316"  width="600" height="500">
+
+### Class Diagram
+
+### Sequence Diagram
+
 
 눈 및 입 영역 추출
 ---
 오픈소스 dlib와 cv2를 이용하여 얼굴의 특징점을 만들고, 얼굴의 전체 영역을 68개의 점을 표시해 눈, 입에 face landmark을 찍습니다.
 눈은 각각 37 ~ 42 / 43 ~ 48, 입은 49 ~ 67의 점으로 표시합니다.
-![1701576859561](https://github.com/timeida/check_slpping/assets/78420869/33f9d463-f569-4a75-b1b2-e75bf35007d5)
 
+<img src="https://github.com/timeida/python/assets/78420869/ba7a4321-10b5-43f5-aa84-b17c29509f75"  width="600" height="500">
 
 졸음 측정
 ---
