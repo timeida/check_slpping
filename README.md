@@ -7,7 +7,6 @@ Index
 * 개발 환경 설정
 * S/W
 * 눈 및 입 영역 추출
-* 필터
 * 졸음 측정
 * 참고자료
 
@@ -18,12 +17,23 @@ Index
 개발 환경 설정
 ---
 Ubuntu 20.04버전에서 작동하였으며 다음과 같은 라이브러리가 사용됐습니다.
-* argparse
+>sudo apt update
+>
+>sudo apt install python-pip
+
 * cv2
+  >sudo apt install libopencv-dev python3-opencv
+* argparse
+  >sudo apt-get install -y python-argparse
 * dlib
+* cmake
 * imutils
 * numpy
+  >sudo apt install numpy
 * pygame
+  > 
+  >
+  > pip install pygame
 * pwn
 
 눈 및 입 영역 추출
