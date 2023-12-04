@@ -53,14 +53,14 @@ Ubuntu 20.04버전에서 작동하였으며 python3를 이용하였습니다. �
 System Diagram
 ---
 ### Block Diagram
-<img src="https://github.com/timeida/check_slpping/assets/78420869/a86f6f5b-f2f8-4d86-8ffc-5fd577502316"  width="600" height="500">
+<img src="https://github.com/timeida/check_slpping/assets/78420869/a86f6f5b-f2f8-4d86-8ffc-5fd577502316"  width="500" height="400">
 
 ### Class Diagram
-<img src="https://github.com/timeida/python/assets/78420869/e5cab70b-eb83-41a9-95da-5b8b104eb840"  width="900" height="300">
+<img src="https://github.com/timeida/python/assets/78420869/e5cab70b-eb83-41a9-95da-5b8b104eb840"  width="800" height="200">
 
 ### Sequence Diagram
-<img src="https://github.com/timeida/python/assets/78420869/38b04027-eaf5-462e-b9d2-14090d3880ba"  width="800" height="800">
-<img src="https://github.com/timeida/python/assets/78420869/3b176ca7-879f-4f01-ad27-8b3f65f634f8"  width="800" height="200">
+<img src="https://github.com/timeida/python/assets/78420869/8a8c8a3b-d133-4cec-bac4-a3e809487131"  width="400" height="200">
+
 
 눈 및 입 영역 추출
 ---
