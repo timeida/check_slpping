@@ -48,7 +48,9 @@ Ubuntu 20.04버전에서 작동하였으며 python3를 이용하였습니다. �
   >
   >datFile =  "/content/shape_predictor_68_face_landmarks.dat"
   >
-  >다운로드된 shape_predictor_68_face_landmarks.dat 7zip 으로 메인 파일이 있는 폴더에 압축 해제합니다
+  >다운로드된 shape_predictor_68_face_landmarks.dat을 [7zip]으로 메인 파일이 있는 폴더에 압축 해제합니다
+
+[7zip]: https://www.7-zip.org/download.html
 
 System Diagram
 ---
