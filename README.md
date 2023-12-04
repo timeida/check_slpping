@@ -40,7 +40,15 @@ Ubuntu 20.04버전에서 작동하였으며 python3를 이용하였습니다. �
 * boost
   >sudo apt-get install libboost-all-dev
 * dlib
-  >pip3 install dlib 
+  >pip3 install dlib
+  >
+  >wget   http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2 # DOWNLOAD LINK
+  >
+  >bunzip2 /content/shape_predictor_68_face_landmarks.dat.bz2
+  >
+  >datFile =  "/content/shape_predictor_68_face_landmarks.dat"
+  >
+  >다운로드된 shape_predictor_68_face_landmarks.dat 7zip 으로 메인 파일이 있는 폴더에 압축 해제합니다
 
 System Diagram
 ---
