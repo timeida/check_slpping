@@ -70,11 +70,16 @@ __4. 입 검출__
 
 검출된 얼굴 영역에서 눈을 검출합니다. 입은 49 ~ 67의 점으로 표시합니다.
 
-__5. 눈 상태 분류__
+[5. 눈 상태 분류]
 
-눈 영역에서 눈이 열려 있는지 닫혀 있는지를 분류하는 모델을 사용합니다. 머신 러닝 기술을 활용하여 훈련된 모델을 사용하였습니다.
+눈 영역에서 눈이 열려 있는지 닫혀 있는지 눈의 종횡비를 계산하여 함수를 깃허브에서 참고하여 사용하였습니다.
+<img src="https://github.com/timeida/check_slpping/assets/78420869/c2e69d08-e545-40d0-8cfb-004bdd3eb980"  width="606" height="500">
+<img src="https://github.com/timeida/check_slpping/assets/78420869/1e45f6ac-eded-4560-9b99-a52683905294"  width="606" height="168">
 
-<img src="https://github.com/timeida/python/assets/78420869/ba7a4321-10b5-43f5-aa84-b17c29509f75"  width="600" height="500">
+__6.하품 상태 분류__
+입 영역에서 입이 열려있는지 닫혀있는지를 입의 왼쪽 끝 지점과 입술 정중앙 지점까지의 길이(2)와 입술 오른쪽 제일 높은 곳과 입술 오른쪽 중간 사이의 길이(3)에서 길이(2)와 길이(3)의 평균을 세로로 지정한다. 이후 세로/가로의 비를 계산하여 이 값이 일정시간 커지면 입이 열려있다고 판단합니다.
+
+<img src="https://github.com/timeida/check_slpping/assets/78420869/98ea67f0-ef59-4b31-a004-afa81b9975a7"  width="600" height="500">
 
 
 
@@ -93,6 +98,8 @@ __5. 눈 상태 분류__
 
 참고자료
 ---
+[5. 눈 상태 분류]: https://ultrakid.tistory.com/12
+
 Detect Drowsy_Driver
 
 http://www.nefus.kr/2021_Demonstration/Drowsy_Driver/index.html
