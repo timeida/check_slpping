@@ -41,16 +41,6 @@ Ubuntu 20.04버전에서 작동하였으며 python3를 이용하였습니다. �
   >sudo apt-get install libboost-all-dev
 * dlib
   >pip3 install dlib
-  >
-  >wget   http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2 # DOWNLOAD LINK
-  >
-  >bunzip2 /content/shape_predictor_68_face_landmarks.dat.bz2
-  >
-  >datFile =  "/content/shape_predictor_68_face_landmarks.dat"
-  >
-  >다운로드된 shape_predictor_68_face_landmarks.dat을 [7zip]으로 메인 파일이 있는 폴더에 압축 해제합니다
-
-[7zip]: https://www.7-zip.org/download.html
 
 System Diagram
 ---
@@ -103,4 +93,8 @@ __5. 눈 상태 분류__
 
 참고자료
 ---
+Detect Drowsy_Driver
 
+http://www.nefus.kr/2021_Demonstration/Drowsy_Driver/index.html
+
+https://github.com/NEFUS18/Dont_Drowsy_Drive
