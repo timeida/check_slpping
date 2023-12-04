@@ -56,22 +56,47 @@ System Diagram
 <img src="https://github.com/timeida/check_slpping/assets/78420869/a86f6f5b-f2f8-4d86-8ffc-5fd577502316"  width="600" height="500">
 
 ### Class Diagram
+<img src="https://github.com/timeida/python/assets/78420869/e5cab70b-eb83-41a9-95da-5b8b104eb840"  width="900" height="300">
 
 ### Sequence Diagram
-
+<img src="https://github.com/timeida/python/assets/78420869/38b04027-eaf5-462e-b9d2-14090d3880ba"  width="800" height="800">
+<img src="https://github.com/timeida/python/assets/78420869/3b176ca7-879f-4f01-ad27-8b3f65f634f8"  width="800" height="200">
 
 눈 및 입 영역 추출
 ---
-오픈소스 dlib와 cv2를 이용하여 얼굴의 특징점을 만들고, 얼굴의 전체 영역을 68개의 점을 표시해 눈, 입에 face landmark을 찍습니다.
-눈은 각각 37 ~ 42 / 43 ~ 48, 입은 49 ~ 67의 점으로 표시합니다.
+오픈소스 dlib와 cv2를 이용하여 얼굴의 특징점을 만들었습니다. dlib의 얼굴 검출기는 높은 정확도를 제공하며, 다양한 각도와 크기의 얼굴을 원활히 검출할 수 있습니다. 
+
+__1. 얼굴 검출__
+
+얼굴의 전체 영역을 68개의 점을 표시해 눈, 입에 face landmark을 찍습니다.
+
+__3. 눈 검출__
+
+검출된 얼굴 영역에서 눈을 검출합니다. 눈은 각각 37 ~ 42 / 43 ~ 48번입니다.
+
+__4. 입 검출__
+
+검출된 얼굴 영역에서 눈을 검출합니다. 입은 49 ~ 67의 점으로 표시합니다.
+
+__5. 눈 상태 분류__
+
+눈 영역에서 눈이 열려 있는지 닫혀 있는지를 분류하는 모델을 사용합니다. 머신 러닝 기술을 활용하여 훈련된 모델을 사용하였습니다.
 
 <img src="https://github.com/timeida/python/assets/78420869/ba7a4321-10b5-43f5-aa84-b17c29509f75"  width="600" height="500">
 
+
+
 졸음 측정
 ---
-눈이 감고 또는 실눈을 뜬채로 일정 시간이 지나면 잠을 깨우는 경고 알람과 문구가 출력이 되도록 하였습니다. 피로를 감지하기 위해 하품을 하는 상황을 고려해 일정 시간만큼 크게 입을 벌린상태로 일정 시간이 경과하면 경고 알람이 울리게 설계하였습니다.
+두 눈과 입사이에 표시된 face landmark사이에 길이를 측정하여 운전자의 상태를 감지합니다.
 
+<img src="https://github.com/timeida/python/assets/78420869/d1d24c2e-df97-4b2e-b33c-004a5469d06f"  width="200" height="100">
 
+<img src="https://github.com/timeida/python/assets/78420869/3236a3ea-a6e7-47cf-b62e-4b2a09df522d"  width="200" height="100">
+
+<img src="https://github.com/timeida/python/assets/78420869/eaf92431-6047-49f2-a10a-34078bd2f358"  width="200" height="100">
+
+<img src="https://github.com/timeida/python/assets/78420869/fb6e9b14-05fd-4362-9961-17bc2399009a"  width="200" height="100">
 
 
 참고자료
