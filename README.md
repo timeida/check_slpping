@@ -27,10 +27,8 @@ Ubuntu 20.04버전에서 작동하였으며 python3를 이용하였습니다. �
   >sudo pip3 install numpy
 * pygame
   > pip3 install pygame
-* cv2
-  >sudo apt install libopencv-dev python3-opencv
-  >
-  >22, 23라인의 xml파일들의 경로를 설치된 위치로 지정합니다.
+*scipy
+  > pip3 install scipy
 * argparse
   >sudo apt-get install -y python-argparse
 * imutils
@@ -49,6 +47,10 @@ Ubuntu 20.04버전에서 작동하였으며 python3를 이용하였습니다. �
   >다운로드한 shape_predictor_68_face_landmarks.dat.bz2을 Extract합니다.(만약 Extract가 안될시 [7-zip]설치후 Extract)
   >
   >Extract한 shape_predictor_68_face_landmarks.dat파일을 main.py파일이 있는 장소로 복사합니다.
+* opencv
+  >[here]로 이동해서 opencv를 설치 합니다.
+  >
+  >22, 23라인의 xml파일들의 경로를 설치된 위치로 지정합니다.
 
   
 
