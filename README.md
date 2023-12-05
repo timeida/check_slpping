@@ -18,7 +18,9 @@ Index
 개발 환경 설정
 ---
 Ubuntu 20.04버전에서 작동하였으며 python3를 이용하였습니다. 다음과 같은 라이브러리가 사용됐습니다. 위에서 아래로 순차적으로 설치해야 합니다.
->sudo apt update
+>sudo apt-get update
+>
+>sudo apt-get upgrade
 >
 >sudo apt-get install python3-pip
 >
