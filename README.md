@@ -66,10 +66,10 @@ System Diagram
 <img src="https://github.com/timeida/check_slpping/assets/78420869/a86f6f5b-f2f8-4d86-8ffc-5fd577502316"  width="500" height="400">
 
 ### Class Diagram
-<img src="https://github.com/timeida/python/assets/78420869/e5cab70b-eb83-41a9-95da-5b8b104eb840"  width="800" height="200">
+<img src="https://github.com/timeida/check_slpping/assets/78420869/1b3d8e72-021d-4caf-acaa-ab6abaa4c07a"  width="800" height="200">
 
 ### Sequence Diagram
-<img src="https://github.com/timeida/python/assets/78420869/8a8c8a3b-d133-4cec-bac4-a3e809487131"  width="400" height="200">
+<img src="https://github.com/timeida/check_slpping/assets/78420869/130204e8-c7a4-42a6-9932-325f23b6718a"  width="400" height="200">
 
 
 눈 및 입 영역 추출
