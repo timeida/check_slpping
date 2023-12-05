@@ -27,8 +27,6 @@ Ubuntu 20.04버전에서 작동하였으며 python3를 이용하였습니다. �
   >sudo pip3 install numpy
 * pygame
   > pip3 install pygame
-* cv2
-  >sudo apt install libopencv-dev python3-opencv
 * argparse
   >sudo apt-get install -y python-argparse
 * imutils
@@ -49,8 +47,12 @@ Ubuntu 20.04버전에서 작동하였으며 python3를 이용하였습니다. �
   >datFile =  "/content/shape_predictor_68_face_landmarks.dat"
   >
   >다운로드한 shape_predictor_68_face_landmarks.dat.bz2을 [7-zip]으로 풉니다.
+*opencv
+  >[here]
+  
 
 [7-zip]: https://www.7-zip.org/download.html
+[here]: https://velog.io/@minukiki/Ubuntu-20.04%EC%97%90-OpenCV-4.4.0-%EC%84%A4%EC%B9%98
 
 System Diagram
 ---
