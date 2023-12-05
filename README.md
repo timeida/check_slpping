@@ -58,7 +58,7 @@ Ubuntu 20.04버전에서 작동하였으며 python3를 이용하였습니다. �
 * opencv
   >[here]로 이동해서 opencv를 설치 합니다.
   >
-  >22, 23라인의 xml파일들의 경로를 설치된 위치로 지정합니다.
+  >20, 21라인의 xml파일들의 경로를 설치된 위치로 지정합니다.
 
 
 
@@ -140,8 +140,10 @@ __6.입 상태 분류__
 [here]: https://velog.io/@minukiki/Ubuntu-20.04%EC%97%90-OpenCV-4.4.0-%EC%84%A4%EC%B9%98
 [5. 눈 상태 분류]: https://ultrakid.tistory.com/12
 
-Detect Drowsy_Driver
-
 http://www.nefus.kr/2021_Demonstration/Drowsy_Driver/index.html
 
 https://github.com/NEFUS18/Dont_Drowsy_Drive
+
+https://deep-learning-study.tistory.com/107
+
+https://diytube.tistory.com/22
