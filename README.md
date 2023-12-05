@@ -41,6 +41,16 @@ Ubuntu 20.04버전에서 작동하였으며 python3를 이용하였습니다. �
   >sudo apt-get install libboost-all-dev
 * dlib
   >pip3 install dlib
+  >
+  >wget   http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2 # DOWNLOAD LINK
+  >
+  >bunzip2 /content/shape_predictor_68_face_landmarks.dat.bz2
+  >
+  >datFile =  "/content/shape_predictor_68_face_landmarks.dat"
+  >
+  >다운로드한 shape_predictor_68_face_landmarks.dat.bz2을 [7-zip]으로 풉니다.
+
+[7-zip]: https://www.7-zip.org/download.html
 
 System Diagram
 ---
@@ -76,7 +86,7 @@ __4. 입 검출__
 <img src="https://github.com/timeida/check_slpping/assets/78420869/c2e69d08-e545-40d0-8cfb-004bdd3eb980"  width="606" height="500">
 <img src="https://github.com/timeida/check_slpping/assets/78420869/1e45f6ac-eded-4560-9b99-a52683905294"  width="606" height="168">
 
-__6.하품 상태 분류__
+__6.입 상태 분류__
 입 영역에서 입이 열려있는지 닫혀있는지를 입의 왼쪽 끝 지점과 입술 정중앙 지점까지의 길이(2)와 입술 오른쪽 제일 높은 곳과 입술 오른쪽 중간 사이의 길이(3)에서 길이(2)와 길이(3)의 평균을 세로로 지정한다. 이후 세로/가로의 비를 계산하여 이 값이 일정시간 커지면 입이 열려있다고 판단합니다.
 
 <img src="https://github.com/timeida/check_slpping/assets/78420869/98ea67f0-ef59-4b31-a004-afa81b9975a7"  width="600" height="500">
