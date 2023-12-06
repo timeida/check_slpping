@@ -17,7 +17,7 @@ def eye_aspect_ratio(eye): # 눈을 어느정도 감고 있는지 받아주는 �
     C = dist.euclidean(eye[0], eye[3])
     EAR = (A + B) / (2.0 * C)
     return EAR
-
+#----------------------start here------------------------(직접 입 인덱스를 분석하여 구현, 원리는 위의 함수와 비슷)
 def mouth_open_ratio(mouth): ## (진우)입을 어느 정도 벌렸는지 받아주는 함수, 가로 길이와 세로 길이를 계산해서 세로/가로의 값을 받음(진우)
     
     # 입의 가로 길이와 세로 길이 계산
@@ -28,7 +28,7 @@ def mouth_open_ratio(mouth): ## (진우)입을 어느 정도 벌렸는지 받아
 
     mouth_ratio = mouth_height / mouth_width # 입의 세로/가로 값
     return mouth_ratio
-
+#----------------------end here------------------------
 
 def eye_is_close(ear, eye_blink_counter, Sleep_Start, eye_blink_total,WarningSound,frame):
     EYE_AR_THRESH = 0.24 # 원하는 눈 감기 정도에 조절
