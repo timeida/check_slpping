@@ -35,8 +35,8 @@ Ubuntu 20.04버전에서 작동하였으며 python3를 이용하였습니다. �
   >sudo pip3 install numpy
 * pygame
   > pip3 install pygame
-*scipy
-  > pip3 install scipy
+* scipy
+  >pip3 install scipy
 * argparse
   >sudo apt-get install -y python-argparse
 * imutils
